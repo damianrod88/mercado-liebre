@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.navbar ul li a {
+  color: black;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.fa-credit-card {
+  font-size: 2em;
+  color: #1259c3;
+}
+
+.padding10 {
+  padding: 10px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.font-price {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.font-discount {
+  font-size: 16px;
+  color: #39b54a;
+}
+.product-content {
+  padding: 15px;
+  border-top: solid 1px #ebebeb;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-content .font-price {
+  width: 30%;
+}
+.product-content .font-discount {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-truck {
+  color: #39b54a;
+  font-size: 1.2em;
+  border: solid 1px #39b54a;
+  border-radius: 50%;
+  padding: 5px;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  background-color: white;
+}
+
+.footer {
+  background-color: white;
+  border: solid 5px #ebebeb;
+}
+.footer1 {
+  margin-top: 50px;
+}
+
+.fa-bars {
+  font-size: 2em;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.create-form {
+  padding: 20px 15px;
+}
+.control-form {
+  margin-bottom: 15px;
+}
+.control-form label {
+  margin-bottom: 5px;
+  font-style: italic;
+  display: block;
+}
+.control {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+.button-form {
+  background-color: green;
+  border: none;
+  font-size: 15px;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.control-form1 {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 20px;
+}
+.control-form2 {
+  display: flex;
+  width: 40%;
+  margin: 20px;
+}
+.control-form2 label {
+  padding-left: 10px;
+}
+.button-form1 {
+  background-color: #03264c;
+  border: none;
+  font-size: 15px;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+.button-form1:hover {
+  background-color: #0022aa;
+}
+.container1 {
+  width: 300px;
+  margin: 0 auto;
+}
