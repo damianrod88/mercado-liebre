@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 
-app.listen(3000, () => console.log("Esto fue exitoso"));
+app.listen(process.env.PORT || 3000, () => console.log("Esto fue exitoso"));
 
 app.use(express.static(path.join(__dirname, "public")));
 

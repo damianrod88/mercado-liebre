@@ -94,10 +94,12 @@ ul {
   border: none;
 }
 .control-form {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
+
 .control-form label {
   margin-bottom: 5px;
+  margin-top: 20px;
   font-style: italic;
   display: block;
 }
@@ -105,15 +107,17 @@ ul {
 .control-form-content {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 60%;
   margin: 20px;
 }
-.control-form-content-1 {
+
+.control-form-content-int {
   display: flex;
   width: 40%;
   margin: 20px;
+  margin-top: 20px;
 }
-.control-form-content-1 label {
+.control-form-content-int label {
   padding-left: 10px;
 }
 
