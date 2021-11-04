@@ -67,7 +67,7 @@ ul {
   background-color: white;
   border: solid 5px #ebebeb;
 }
-.footer1 {
+.footer-content {
   margin-top: 50px;
 }
 
@@ -105,21 +105,21 @@ ul {
   border-radius: 5px;
 }
 
-.control-form1 {
+.control-form-content {
   display: flex;
   justify-content: space-between;
   width: 50%;
   margin: 20px;
 }
-.control-form2 {
+.control-form-content-1 {
   display: flex;
   width: 40%;
   margin: 20px;
 }
-.control-form2 label {
+.control-form-content-1 label {
   padding-left: 10px;
 }
-.button-form1 {
+.button-form-content {
   background-color: #03264c;
   border: none;
   font-size: 15px;
@@ -128,10 +128,10 @@ ul {
   border-radius: 5px;
   width: 100%;
 }
-.button-form1:hover {
+.button-form-content:hover {
   background-color: #0022aa;
 }
-.container1 {
+.container-content {
   width: 300px;
   margin: 0 auto;
 }
