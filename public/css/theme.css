@@ -45,9 +45,6 @@ body {
   display: none;
 }
 
-footer {
-  text-align: center;
-}
 p strong {
   font-size: 16px;
 }
@@ -56,12 +53,6 @@ p strong {
   font-size: 18px;
   margin-top: 10px;
   margin-bottom: 0;
-}
-
-.product {
-  margin-bottom: 10px;
-  background-color: white;
-  border-bottom: solid 1px #ebebeb;
 }
 
 .navbar {
